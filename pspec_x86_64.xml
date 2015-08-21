@@ -1,0 +1,51 @@
+<PISI>
+    <Source>
+        <Name>yum</Name>
+        <Packager>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <Summary xml:lang="en">RPM based Package Manager</Summary>
+        <Description xml:lang="en">Yum is an automatic updater and package installer/remover for rpm systems. It automatically computes dependencies and figures out what things should occur to install packages. It makes it easier to maintain groups of machines without having to manually update each one using rpm. Yum has a plugin interface for adding simple features. Yum can also be used from other python programs via its module inteface.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>yum</Name>
+        <Summary xml:lang="en">RPM based Package Manager</Summary>
+        <Description xml:lang="en">Yum is an automatic updater and package installer/remover for rpm systems. It automatically computes dependencies and figures out what things should occur to install packages. It makes it easier to maintain groups of machines without having to manually update each one using rpm. Yum has a plugin interface for adding simple features. Yum can also be used from other python programs via its module inteface.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7</Path>
+            <Path fileType="executable">/usr/sbin</Path>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/yum-cli</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="data">/var/cache/yum</Path>
+            <Path fileType="data">/var/lib/yum</Path>
+            <Path fileType="config">/etc/yum/yum.conf</Path>
+            <Path fileType="config">/etc/yum/yum-weekly.yum</Path>
+            <Path fileType="config">/etc/yum/version-groups.conf</Path>
+            <Path fileType="config">/etc/yum/yum-updatesd.conf</Path>
+            <Path fileType="config">/etc/yum/yum-daily.yum</Path>
+            <Path fileType="config">/etc/yum/vars</Path>
+            <Path fileType="config">/etc/yum/repos.d</Path>
+            <Path fileType="config">/etc/yum/protected.d</Path>
+            <Path fileType="config">/etc/sysconfig/yum-cron</Path>
+            <Path fileType="config">/etc/bash_completion.d/yum.bash</Path>
+            <Path fileType="config">/etc/dbus-1/system.d</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2015-08-21</Date>
+            <Version>3.4.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Ikey Doherty</Name>
+            <Email>ikey@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
