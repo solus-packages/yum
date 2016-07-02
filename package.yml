@@ -1,10 +1,10 @@
 name       : yum
 version    : 3.4.3
-release    : 1
+release    : 2
 source     :
     - http://yum.baseurl.org/download/3.4/yum-3.4.3.tar.gz : 0178f97820ced9bfbcc269e6fc3ea35e29e35e2d263d24c7bff8660ee62d37ca
 license    : GPL-2.0
-summary    : RPM based Package Manager
+summary    : DONT USE ME - EVER
 description: |
     Yum is an automatic updater and package installer/remover for rpm systems. It automatically computes dependencies and figures out what things should occur to install packages. It makes it easier to maintain groups of machines without having to manually update each one using rpm. Yum has a plugin interface for adding simple features. Yum can also be used from other python programs via its module inteface.
 builddeps  :
