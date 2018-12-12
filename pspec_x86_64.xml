@@ -2,10 +2,10 @@
     <Source>
         <Name>yum</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-or-later</License>
         <PartOf>programming.devel</PartOf>
         <Summary xml:lang="en">DONT USE ME - EVER</Summary>
         <Description xml:lang="en">Yum is an automatic updater and package installer/remover for rpm systems. It automatically computes dependencies and figures out what things should occur to install packages. It makes it easier to maintain groups of machines without having to manually update each one using rpm. Yum has a plugin interface for adding simple features. Yum can also be used from other python programs via its module inteface.
@@ -30,7 +30,7 @@
             <Path fileType="config">/etc/yum/yum-updatesd.conf</Path>
             <Path fileType="config">/etc/yum/yum-weekly.yum</Path>
             <Path fileType="config">/etc/yum/yum.conf</Path>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/yum</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/rpmUtils/__init__.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/rpmUtils/__init__.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/rpmUtils/arch.py</Path>
@@ -101,9 +101,46 @@
             <Path fileType="library">/usr/lib/python2.7/site-packages/yum/update_md.pyc</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/yum/yumRepo.py</Path>
             <Path fileType="library">/usr/lib/python2.7/site-packages/yum/yumRepo.pyc</Path>
-            <Path fileType="executable">/usr/sbin</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="executable">/usr/sbin/yum-updatesd</Path>
+            <Path fileType="localedata">/usr/share/locale/bn_IN/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/cs/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/da/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/de/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/el/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_GB/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/eu/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fi/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/gu/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hi/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/hu/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/id_ID/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/it/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ja/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lt_LT/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/mr/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ms/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nb/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pa/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pl/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/pt_BR/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ru/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sr@latin/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/sv/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/uk/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/ur/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_CN/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/zh_TW/LC_MESSAGES/yum.mo</Path>
+            <Path fileType="man">/usr/share/man/man5/yum-updatesd.conf.5</Path>
+            <Path fileType="man">/usr/share/man/man5/yum.conf.5</Path>
+            <Path fileType="man">/usr/share/man/man8/yum-shell.8</Path>
+            <Path fileType="man">/usr/share/man/man8/yum-updatesd.8</Path>
+            <Path fileType="man">/usr/share/man/man8/yum.8</Path>
             <Path fileType="data">/usr/share/yum-cli/callback.py</Path>
             <Path fileType="data">/usr/share/yum-cli/callback.pyc</Path>
             <Path fileType="data">/usr/share/yum-cli/cli.py</Path>
@@ -125,12 +162,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2016-07-02</Date>
+        <Update release="3">
+            <Date>2018-12-12</Date>
             <Version>3.4.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
